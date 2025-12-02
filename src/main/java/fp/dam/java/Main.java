@@ -13,7 +13,7 @@ public class Main {
 		for (int i = 0; i < cadena.length; i++) {
 			int j = 0;
 			while (cadena[i] == cadena[i + j]) {
-					j++;
+				j++;
 			}
 			out.add(s.substring(i, j));
 		}
